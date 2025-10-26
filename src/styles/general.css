@@ -28,12 +28,6 @@
     inset 5px 5px 5px #fff,
     inset -5px -5px 5px #00000022;
 }
-
-.isDark {
-    color: #DDECDA;
-    background: #051F20;
-}
-
 .isLight {
     color: #051F20;
     background: #DDECDA;

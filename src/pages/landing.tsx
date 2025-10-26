@@ -54,6 +54,10 @@ export default function Landing() {
                     'Herramienta de procesamiento de lenguaje natural que genera respuestas inteligentes y coherentes, contextualizadas automáticamente según el análisis del prompt. Determina dinámicamente si la respuesta debe ser de carácter evaluativo o educativo, asegurando que la información recuperada del lago de datos sea relevante y valiosa para el usuario.  '
                     image={plantimg4}
                 />
+                <Separator />
+                <div className='linkButton'>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScx0uNh0vLqjdkb7HTuxijmu7htbMvc8HfTy5XyUbXjIj4esA/viewform?usp=dialog' className='title'>¿Te importaria responder algunas preguntas?</a>
+                </div>
             </div>
             <Footer />
         </div>

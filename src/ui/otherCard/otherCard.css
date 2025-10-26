@@ -1,0 +1,40 @@
+.otherCard {
+    width: calc(100% - 80px);
+    height: 200px;
+    overflow: hidden;
+}
+
+.oCcontain {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+
+    * {
+        margin: 0;
+    }
+
+    p {
+        height: calc(100% / 3);
+    }
+}
+
+.imgpart {
+    height: calc(100% / 3);
+    width: 100%;
+    background-image: url('../../assets/decoration/plantImg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bot {
+  background-position: center bottom;
+}
+
+
+.cen {
+  background-position: center;
+}

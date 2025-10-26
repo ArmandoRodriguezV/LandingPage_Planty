@@ -1,0 +1,20 @@
+.presentationCard {
+    display: flex;
+    width: calc(100% - 80px);
+    overflow: hidden;
+
+    * {
+        margin: 10px;
+    }
+
+    .contain1 {
+        width: 50%;
+        margin: 0 30% 0 0;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    img {
+        transform: scale(1.4) translate(-140px, 100px) rotate(30deg);
+    }
+}

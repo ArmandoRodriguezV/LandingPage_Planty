@@ -1,0 +1,24 @@
+.rightCard {
+    width: calc(100% - 80px);
+    overflow: hidden;
+
+    * {
+        margin: 0;
+    }
+}
+
+.rightCard img {
+    width: 50%;
+    height: 100%;
+}
+
+.rightCard .frag {
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+    p {
+        margin: 10px 0;
+        text-align: center;
+    }
+} 

@@ -1,0 +1,4 @@
+.Separator {
+    width: calc(100% - 80px);
+    height: 20px;
+}

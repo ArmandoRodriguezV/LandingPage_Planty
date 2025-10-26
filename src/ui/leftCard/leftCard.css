@@ -1,0 +1,24 @@
+.leftCard {
+    width: calc(100% - 80px);
+    overflow: hidden;
+
+    * {
+        margin: 0;
+    }
+}
+
+.leftCard img {
+    width: 50%;
+    height: 100%;
+}
+
+.leftCard .frag {
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+
+    p {
+        margin: 10px 0;
+        text-align: center;
+    }
+} 

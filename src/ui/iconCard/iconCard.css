@@ -1,0 +1,23 @@
+.iconCard {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    * {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+.iconCard img {
+    transform: scale(2);
+}
+
+.iconCard p {
+    margin: 40px 0 0 0;
+    text-align: center;
+}

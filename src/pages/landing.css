@@ -1,0 +1,16 @@
+.landing {
+    * {
+        margin: 40px;
+    }
+}
+
+.landing .pillars {
+    width: (100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        margin: 0;
+    }
+}

@@ -2,10 +2,23 @@ import './index.css';
 import './styles/general.css';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import Landing from './pages/landing';
+import Landing from './pages/landing/landing';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Terms from './pages/terms/terms';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Landing />
+  },
+  {
+    path:"/termios",
+    element:<Terms />
+  }
+]);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Landing />
+    <RouterProvider router={router}/>
   </StrictMode>,
 )

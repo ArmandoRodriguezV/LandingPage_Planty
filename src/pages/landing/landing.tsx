@@ -1,23 +1,23 @@
 import './landing.css';
-import Header from '../ui/header/header';
-import PresentationCard from '../ui/presentationCard/presentationCard';
-import OtherCard from '../ui/otherCard/otherCard';
-import TextContainer from '../ui/textContainer/textContainer';
-import IconCard from '../ui/iconCard/iconCard';
-import LeftCard from '../ui/leftCard/leftCard';
-import RightCard from '../ui/rightCard/rightCard';
-import Footer from '../ui/footer/footer';
-import Separator from '../ui/separator/separator';
+import Header from '../../ui/header/header';
+import PresentationCard from '../../ui/presentationCard/presentationCard';
+import OtherCard from '../../ui/otherCard/otherCard';
+import TextContainer from '../../ui/textContainer/textContainer';
+import IconCard from '../../ui/iconCard/iconCard';
+import LeftCard from '../../ui/leftCard/leftCard';
+import RightCard from '../../ui/rightCard/rightCard';
+import Footer from '../../ui/footer/footer';
+import Separator from '../../ui/separator/separator';
 
-import ag from '../assets/icons/Ag.png';
-import pln from '../assets/icons/pln.png';
-import ml from '../assets/icons/ml.png';
-import llm from '../assets/icons/llm.png';
+import ag from '../../assets/icons/Ag.png';
+import pln from '../../assets/icons/pln.png';
+import ml from '../../assets/icons/ml.png';
+import llm from '../../assets/icons/llm.png';
 
-import plantimg1 from '../assets/decoration/plantImg1.png'
-import plantimg2 from '../assets/decoration/plantImg2.png'
-import plantimg3 from '../assets/decoration/plantImg3.png'
-import plantimg4 from '../assets/decoration/plantImg4.png'
+import plantimg1 from '../../assets/decoration/plantImg1.png'
+import plantimg2 from '../../assets/decoration/plantImg2.png'
+import plantimg3 from '../../assets/decoration/plantImg3.png'
+import plantimg4 from '../../assets/decoration/plantImg4.png'
 
 export default function Landing() {
     return (

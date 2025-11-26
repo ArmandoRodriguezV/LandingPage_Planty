@@ -15,8 +15,8 @@ export default function Header() {
                 <img src={logo} />
                 <p className='title noSelect'>Planty</p>
             </div>
-            <a href="/termios">
-                Terminos y condiciones
+            <a href="/avisoprivacidad">
+                Aviso de Privacidad 
             </a>
         </div>
     );

@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <Landing />
   },
   {
-    path:"/termios",
+    path:"/avisoprivacidad",
     element:<Terms />
   }
 ]);

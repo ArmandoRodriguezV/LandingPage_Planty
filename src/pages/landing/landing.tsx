@@ -32,21 +32,21 @@ export default function Landing() {
                 <TextContainer title='Tecnologías usadas' content=
                     'Las siguientes tecnologías permiten que la aplicación ofrezca funcionalidades robustas en conceptos básicos y adaptabilidad contextual, facilitando la gestión asistida de huertos desde su creación hasta su mantenimiento.' />
                 <div className='pillars'>
-                    <IconCard text='Algoritmo genetico' image={ag} />
+                    <IconCard text='Algoritmo genético' image={ag} />
                     <IconCard text='Procesador de lenguaje natural' image={pln} />
-                    <IconCard text='Aprendizaje automatico' image={ml} />
+                    <IconCard text='Aprendizaje automático' image={ml} />
                     <IconCard text='Modelo de lenguaje grande' image={llm} />
                 </div>
                 <Separator />
-                <LeftCard title='Algoritmo Genetico' text=
+                <LeftCard title='Algoritmo Genético' text=
                     'Herramienta modelada y estructurada que permite al usuario diseñar un huerto ideal con especificaciones personalizadas, considerando la compatibilidad entre plantas, consumo de agua y espacio requerido. Ideal para principiantes con poco o ningún conocimiento en agricultura.'
                     image={plantimg2}
                 />
                 <RightCard title='Procesador de lenguaje natural' text=
-                    'Herramienta de aprendizaje asistido contextualizada a la agricultura en Suchiapas, Chiapas, que facilita la mejora continua mediante funciones que permiten al usuario generar un huerto personalizado con un simple prompt. Incluye módulos de aprendizaje informativo y evaluativo que orientan al usuario sobre temas agrícolas desconocidos.'
+                    'Herramienta de aprendizaje asistido contextualizada a la agricultura en Suchiapa, Chiapas, que facilita la mejora continua mediante funciones que permiten al usuario generar un huerto personalizado con un simple prompt. Incluye módulos de aprendizaje informativo y evaluativo que orientan al usuario sobre temas agrícolas desconocidos.'
                     image={plantimg1}
                 />
-                <LeftCard title='Machine Lerning' text=
+                <LeftCard title='Machine Learning' text=
                     'Herramienta de recomendaciones personalizadas que proporciona sugerencias, recordatorios y predicciones sobre el estado y desarrollo de los huertos del usuario, adaptándose a su comportamiento e interacciones en la aplicación.'
                     image={plantimg3}
                 />
@@ -56,7 +56,7 @@ export default function Landing() {
                 />
                 <Separator />
                 <div className='linkButton'>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScx0uNh0vLqjdkb7HTuxijmu7htbMvc8HfTy5XyUbXjIj4esA/viewform?usp=dialog' className='title'>¿Te importaria responder algunas preguntas?</a>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLScx0uNh0vLqjdkb7HTuxijmu7htbMvc8HfTy5XyUbXjIj4esA/viewform?usp=dialog' className='title'>¿Te importaría responder algunas preguntas?</a>
                 </div>
             </div>
             <Footer />

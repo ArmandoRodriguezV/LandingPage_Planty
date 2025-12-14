@@ -6,13 +6,15 @@ import Landing from './pages/landing/landing';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Terms from './pages/terms/terms';
 
+
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Landing />
   },
   {
-    path:"/termios",
+    path:"/avisoprivacidad",
     element:<Terms />
   }
 ]);

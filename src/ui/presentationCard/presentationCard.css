@@ -22,3 +22,13 @@
         transform: scale(1.5) translate(-160px, 120px) rotate(30deg);
     }
 }
+
+.presentationCard .play-store {
+    margin: 40px 0;
+    p {
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+}

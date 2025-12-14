@@ -12,7 +12,7 @@ export default function PresentationCard() {
                     Planty te ayuda a crear y cuidar tu huerto urbano con IA y tecnología verde
                 </p>
             </div>
-            <img src={cel} width="230" height="412" />
+            <img src={cel} width="230" height="492" />
         </div>
     );
 }
